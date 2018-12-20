@@ -1,11 +1,13 @@
 # Scripts-for-annotations-AI
 Some scripts used for processing documents
   Please check the path variable listed on top in these scripts before using.
+==============================================================================
 
 ## 1_generate
-  ### delete_deuplicated.sh 
-    delete duplicated files in the new directory where new documents are exported from Solr and stored; 
-    delete duplicated files which have been annotated in old dataset(SOSP)
+
+delete_deuplicated.sh 
+    -delete duplicated files in the new directory where new documents are exported from Solr and stored; 
+    -delete duplicated files which have been annotated in old dataset(SOSP)
   ### random_select.sh 
     randomly select documents that have been annotated for cross-annotation
 ## 2_statistics
