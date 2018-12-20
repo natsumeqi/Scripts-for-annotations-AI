@@ -15,8 +15,6 @@ Some scripts used for processing documents
     count the number of documents that contain the same type of entity
   ### check_doc_type.sh
      check the correctness of type of documents, like PII, PCI, PHI. For example, if a document has an annotation as SSN, it should be labled as PHI. To find these cases, first enter "ssn", then enter "DOC_PHI".
-  ### entities.type
-    a list of entity types used on BRAT
 ## 3_compare
  ### compare_before.sh
     process the format in order to calculate Cohen's kappa coefficient
